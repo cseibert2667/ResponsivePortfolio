@@ -12,6 +12,12 @@ body {
     padding: 25px;
 }
 
+.container-contact {
+    background-color: white;
+    padding: 25px;
+    width: 60%;
+}
+
 h1 {
     margin-top: 15px;
     margin-bottom: 0px;
@@ -43,12 +49,17 @@ Different Sizing  */
     .container-port {
         max-width: 225px;
     }
+    .container-contact {
+        width: 90%;
 }
 
 
 @media (min-width: 400px){
     .container-port {
         max-width: 250px;
+    }
+    .container-contact {
+        width: 90%;
     }
 }
 
@@ -59,6 +70,9 @@ Different Sizing  */
     .container-port {
         max-width: 300px;
     }
+    .container-contact {
+        width: 60%;
+    }
 }
 
 @media (min-width: 992px){
@@ -67,5 +81,8 @@ Different Sizing  */
     }
     .container-port {
         max-width: 500px
+    }
+    .container-contact {
+        width: 50%;
     }
 }
