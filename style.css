@@ -2,9 +2,13 @@ body {
     background-color: darkgrey;
 }
 
-.container {
+.container-index {
     background-color: white;
-    margin-top: 100px;
+    padding: 25px;
+}
+
+.container-port {
+    background-color: white;
     padding: 25px;
 }
 
@@ -20,7 +24,11 @@ p {
 
 img {
     float: left;
+}
+
+.port-img {
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .footer {
@@ -31,14 +39,33 @@ img {
 /* 
 Different Sizing  */
 
+@media (min-width: 250px){
+    .container-port {
+        max-width: 225px;
+    }
+}
+
+
+@media (min-width: 400px){
+    .container-port {
+        max-width: 250px;
+    }
+}
+
 @media (min-width: 768px){
-    .container {
+    .container-index {
         max-width: 600px;
+    }
+    .container-port {
+        max-width: 300px;
     }
 }
 
 @media (min-width: 992px){
-    .container {
+    .container-index {
         max-width: 720px;
+    }
+    .container-port {
+        max-width: 500px
     }
 }
