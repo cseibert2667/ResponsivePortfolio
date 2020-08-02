@@ -1,28 +1,60 @@
 body {
-    background-color: darkgrey;
+    background-color: #c1c1c1;
 }
 
+.container-port,
 .container-index {
-    background-color: white;
+    background-color: #F3F8FF;
     padding: 25px;
-}
-
-.container-port {
-    background-color: white;
-    padding: 25px;
+    border-radius: 20px;
 }
 
 .container-contact {
-    background-color: white;
+    background-color: #F3F8FF;
     padding: 25px;
     width: 60%;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: #557A95;
+    
+}
+
+.navbar-brand {
+    font-size: 32px;
+    color: #557A95;
+    background-color: #b1a296;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: #7395AE;
+}
+
+.nav-item a {
+    font-size: 24px;
+    color: #7395AE;
+}
+
+.nav-item a:hover {
+    color: #5d5c61
+}
+
+.active a {
+    color: #b1a296;
+    font-weight: bold;
 }
 
 h1 {
     margin-top: 15px;
     margin-bottom: 0px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: #557A95;
+    font-family: 'Times New Roman', Times, serif;
 }
 p {
     font-size: 20px;
@@ -39,13 +71,17 @@ img {
 
 .footer {
     text-align: center;
-    background-color: steelblue;
+    background-color: #557A95;
+    color: #7395AE;
   }
 
 /* 
 Different Sizing  */
 
 @media (min-width: 250px){
+    .container-index {
+        width: 90%
+    }
     .container-port {
         max-width: 225px;
     }
@@ -55,6 +91,9 @@ Different Sizing  */
 
 
 @media (min-width: 400px){
+    .container-index {
+        width: 90%
+    }
     .container-port {
         max-width: 250px;
     }
