@@ -49,6 +49,14 @@ body {
     font-weight: bold;
 }
 
+.navbar-toggler {
+    border-color: #c1c1c1;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
 h1 {
     margin-top: 15px;
     margin-bottom: 0px;
@@ -122,6 +130,6 @@ Different Sizing  */
         max-width: 500px
     }
     .container-contact {
-        width: 50%;
+        width: 55%;
     }
 }
