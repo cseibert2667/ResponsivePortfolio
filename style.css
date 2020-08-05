@@ -1,5 +1,5 @@
 body {
-    background-color: #c1c1c1;
+    background-image: url(./portfolio-background.jpg)
 }
 
 .container-port,
@@ -23,7 +23,7 @@ body {
 
 .navbar-brand {
     font-size: 32px;
-    color: #557A95;
+    color: #696969;
     background-color: #b1a296;
     border-radius: 15px;
     padding: 5px;
@@ -95,8 +95,8 @@ Different Sizing  */
     }
     .container-contact {
         width: 90%;
+    }
 }
-
 
 @media (min-width: 400px){
     .container-index {
