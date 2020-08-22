@@ -1,5 +1,5 @@
 body {
-    background-image: url(./portfolio-background.jpg)
+    background-image: url(./assets/portfolio-background.jpg)
 }
 
 .container-port,
@@ -7,6 +7,10 @@ body {
     background-color: #F3F8FF;
     padding: 25px;
     border-radius: 20px;
+}
+
+.links {
+    font-size: 20px;
 }
 
 .container-contact {
